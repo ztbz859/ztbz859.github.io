@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>志愿者申请表</title>
+</head>
+<body>
+    <h1>志愿者申请表</h1>
+    
+    <!-- 更新后的提示信息 -->
+    <p>填写完成后将个人信息发送至 <a href="mailto:zzyjtxbzjy@outlook.com">zzyjtxbzjy@outlook.com</a></p>
+
+    <form action="submit.php" method="POST">
+        <label for="name">姓名：</label>
+        <input type="text" id="name" name="name" required=""><br><br>
+        
+        <label for="phone">电话：</label>
+        <input type="text" id="phone" name="phone" required=""><br><br>
+
+        <label for="email">邮箱：</label>
+        <input type="email" id="email" name="email" required=""><br><br>
+
+        <label for="message">申请理由：</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required=""></textarea><br><br>
+
+        <input type="submit" value="提交申请">
+    </form>
+
+
+</body></html>
